@@ -24,7 +24,7 @@ deploy-to-oke:
     - bash-template
     
     - script:
-        name: "Visualise Kubernetes config"
+        name: "Visualise Kubernetes config" 
         code: cat kubernetes-deployment.yml
     
     - kubectl:
